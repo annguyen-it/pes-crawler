@@ -1,0 +1,17 @@
+{
+  "name": "pes-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tasklist | find /i 'excel.exe' && taskkill /im excel.exe /F || echo process 'excel.exe' not running. && node main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "puppeteer": "^14.1.0"
+  }
+}
